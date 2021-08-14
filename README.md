@@ -4,7 +4,7 @@ LumaShare is a simple tool that allows you to create nice-looking shareable pict
 ## Usage instructions
 LumaShare should be pretty self-explanatory. Here's how LumaShare looks like:
 
-![LumaShare Window](https://user-images.githubusercontent.com/9458093/129462034-32ec5a49-d03a-43b8-9f07-ce8c51326e71.PNG)
+![Screenshot für Github](https://user-images.githubusercontent.com/9458093/129462707-c808bc74-ef4f-4eb0-9b4d-e1deda05099b.PNG)
 
 Click on the "..." Button next to the Top Screen or Bottom Screen textbox to open the corresponding image file on your PC. LumaShare looks got files ending with \_bot.bmp or \_top.bmp by default. If your screenshot doesn't end with \_bot.bmp or top.bmp, you can show all supported files by selecting "All supported files" in the combo box above the "Open" button.
 
