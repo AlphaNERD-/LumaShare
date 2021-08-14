@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LumaShare"
         mc:Ignorable="d"
-        Title="LumaShare" Height="595" Width="557">
+        Title="LumaShare" Height="768" Width="444">
     <DockPanel Margin="4">
         <GroupBox Header="Images" DockPanel.Dock="Top">
             <Grid Grid.RowSpan="2" Grid.ColumnSpan="3">
@@ -21,8 +21,8 @@
                 </Grid.ColumnDefinitions>
                 <Label Content="Top Screen Image:" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right"/>
                 <Label Content="Bottom Screen Image:" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right"/>
-                <TextBox Name="tbxPathTop" Margin="2" TextWrapping="Wrap" Width="Auto" Grid.Row="0" Grid.Column="1" Text="{Binding TopImagePath}"/>
-                <TextBox Name="tbxPathBottom"  Margin="2" TextWrapping="Wrap" Width="Auto" Grid.Row="1" Grid.Column="1" Text="{Binding BottomImagePath}"/>
+                <TextBox Name="tbxPathTop" Margin="2" Width="Auto" Grid.Row="0" Grid.Column="1" TextWrapping="NoWrap" Text="{Binding TopImagePath}"/>
+                <TextBox Name="tbxPathBottom"  Margin="2" Width="Auto" Grid.Row="1" Grid.Column="1" TextWrapping="NoWrap" Text="{Binding BottomImagePath}"/>
                 <Button Name="btnPathSelectTop" Content="..." Height="Auto" Width="Auto" Margin="2" Grid.Row="0" Grid.Column="2" Click="btnPathSelectTop_Click"/>
                 <Button Name="btnPathSelectBottom" Content="..." Height="Auto" Width="Auto" Margin="2" Grid.Row="1" Grid.Column="2" Click="btnPathSelectBottom_Click"/>
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="2" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" >
