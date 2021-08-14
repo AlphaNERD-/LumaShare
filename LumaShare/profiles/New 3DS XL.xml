@@ -1,0 +1,4 @@
+<LumaShareProfile Name="New 3DS XL Blue" ImageFileName="Blue 3DS.png">
+	<TopScreen Start="207,102" Size="818,491"/>
+	<BottomScreen Start="289,741" Size="655,492"/>
+</LumaShareProfile>

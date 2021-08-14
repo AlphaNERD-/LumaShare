@@ -1,0 +1,4 @@
+<LumaShareProfile Name="2DS Blue Black" ImageFileName="2DS Blue Black.png">
+	<TopScreen Start="235,108" Size="535,321"/>
+	<BottomScreen Start="290,476" Size="425,318"/>
+</LumaShareProfile>
