@@ -8,9 +8,13 @@ LumaShare should be pretty self-explanatory. Here's how LumaShare looks like:
 
 Click on the "..." Button next to the Top Screen or Bottom Screen textbox to open the corresponding image file on your PC. LumaShare looks got files ending with \_bot.bmp or \_top.bmp by default. If your screenshot doesn't end with \_bot.bmp or top.bmp, you can show all supported files by selecting "All supported files" in the combo box above the "Open" button.
 
-If you open a \_bot.bmp or \_top.bmp file, LumaShare looks for the other corresponding file in the same directory and if available adds it automatically.
+If you open a \_bot.bmp or \_top.bmp file, LumaShare looks for the other corresponding file in the same directory and if available adds it automatically unless you already picked another file for the top or bottom screen.
+
+If you want to make another shareable picture or picked the wrong file for the top or bottom screen, you can use "Clear Images" to remove the selected images.
 
 You can choose between different profiles (2 included), a transparent background or blurry background generated from top or bottom screen and add a border between the console image and the image border to allow more space for the background. LumaShare stores your settings automatically in a config file in the same directory of the .exe file and loads it automatically when you restart it.
+
+Once you're done creating the picture, click "Save Picture" to save the picture you created.
 
 ## Profiles
 LumaShare wraps your screenshots neatly into a 3DS image. It does so by loading a profile which contains information about where to put the screenshots and how large they have to be. The profiles are stored in the "profiles" directory relative to the directory of the .exe file. Each profile contains an image file of the console you wish to show your screenshots on and the aforementioned XML file.
