@@ -66,8 +66,6 @@ namespace LumaShare
                     }
                 }
 
-                dc.DrawImage(imgProfile, new Rect(leftOffset, topOffset, imgProfile.PixelWidth, imgProfile.PixelHeight));
-
                 if (File.Exists(pathToTopImage))
                 {
                     BitmapImage imgTop = GetBitmapImage(pathToTopImage);
@@ -87,6 +85,8 @@ namespace LumaShare
                 {
                     dc.DrawRectangle(System.Windows.Media.Brushes.Black, null, new Rect(prof.BottomScreenStart.X + leftOffset, prof.BottomScreenStart.Y + topOffset, prof.BottomScreenSize.Width, prof.BottomScreenSize.Height));
                 }
+
+                dc.DrawImage(imgProfile, new Rect(leftOffset, topOffset, imgProfile.PixelWidth, imgProfile.PixelHeight));
             }
 
             RenderTargetBitmap rtb = new RenderTargetBitmap(width, height, 96, 96, PixelFormats.Pbgra32);
